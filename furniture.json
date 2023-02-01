@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Armcahir",
+        "categorie": "Chair",
+        "price": "500.50",
+        "imgSrc": "images/chair1.png"
+    },
+    {
+        "name": "Armcahir",
+        "categorie": "Chair",
+        "price": "1500.50",
+        "imgSrc": "images/chair2.png"
+    },
+    {
+        "name": "Armcahir",
+        "categorie": "Chair",
+        "price": "2500.50",
+        "imgSrc": "images/chair3.png"
+    },
+    {
+        "name": "Armcahir",
+        "categorie": "Chair",
+        "price": "3500.50",
+        "imgSrc": "images/chair4.png"
+    },
+    {
+        "name": "Armcahir",
+        "categorie": "Bed",
+        "price": "500.50",
+        "imgSrc": "images/bed1.png"
+    },
+    {
+        "name": "Armcahir",
+        "categorie": "Bed",
+        "price": "500.50",
+        "imgSrc": "images/bed2.png"
+    },
+    {
+        "name": "Armcahir",
+        "categorie": "Bed",
+        "price": "1500.50",
+        "imgSrc": "images/bed3.png"
+    },
+    {
+        "name": "Armcahir",
+        "categorie": "Bed",
+        "price": "3500.50",
+        "imgSrc": "images/bed4.png"
+    },
+    {
+        "name": "Armcahir",
+        "categorie": "Infant-bed",
+        "price": "500.50",
+        "imgSrc": "images/infant_bed1.png"
+    },
+    {
+        "name": "Armcahir",
+        "categorie": "Infant-bed",
+        "price": "3500.50",
+        "imgSrc": "images/infant_bed4.png"
+    },
+    {
+        "name": "Armcahir",
+        "categorie": "Infant-bed",
+        "price": "4500.50",
+        "imgSrc": "images/infant_bed3.png"
+    },
+    {
+        "name": "Armcahir",
+        "categorie": "Infant-bed",
+        "price": "500.50",
+        "imgSrc": "images/infant_bed5.png"
+    },
+    {
+        "name": "Armcahir",
+        "categorie": "Infant-bed",
+        "price": "500.50",
+        "imgSrc": "images/infant_bed2.png"
+    }
+]

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!-- Navbar Start here -->
+            <nav class="navbar">
+                <a href="index.html" class="navbar__brand">Vintage.</a>
+
+                <button type="button" class="navbar__toggler">
+                    <!-- <i class="fas fa-bars"></i> -->
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="navbar__collapse">
+                    <ul>
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">Gallery</a></li>
+                        <li> <a href="#">Contacts</a></li>
+                        <li> <a href="#">Blog </a></li>
+                        <li> <a href="#">New Arrivals</a></li>
+                    </ul>
+                </div>
+                <div class="cart">
+                    <button type="button" id="cart__btn">
+                        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                        <span id="cart__count">0</span>
+                    </button>
+                    <div class="cart__container">
+                        <div class="cart__list">
+                            <!-- Single Items start here -->
+                            <!-- <div class="cart__item">
+                                <img src="images/chair1.png" alt="chair">
+                                <div class="cart__item__info">
+                                    <h3 class="cart__item__name">Arm Chairs</h3>
+                                    <span class="cart__item__categories">Chair</span>
+                                    <span class="cart__item__price">Rs 1200.00</span>
+                                </div>
+                                <button type="button" class="cart__item__del__btn">
+                                    <i class="fas fa-times"></i>
+                                </button>
+                            </div> -->
+                            <!-- Single Items ENd here -->
+                        </div>
+
+                        <div class="cart__total">
+                            <h3>Total: Rs</h3>
+                            <span id="cart__total__value"></span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Nav bar End Here -->
+
+            <!-- Banner Start Here -->
+            <div class="banner">
+                <div class="banner__content">
+                    <h1>Furniture for Your Home</h1>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, dicta aliquam!
+                        Vel voluptas quo, sint hic libero consequatur excepturi exercitationem temporibus harum
+                        blanditiis magnam dolorum obcaecati eos, nulla repellendus sunt.</p>
+                    <div class="banner__btn">
+                        <button type="button" class="btn">Know More </button>
+                        <button type="button" class="btn">More Info</button>
+                    </div>
+                </div>
+                <div class="banner__img">
+                    <img class="banner-img" src="./images/infant_bed5.png" alt="furniture" srcset="">
+                </div>
+            </div>
+            <!-- Banner End Here -->
+
+        </div>
+    </header>
+
+    <!-- products section  -->
+    <section class="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <!-- single item -->
+                <!-- <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/bed2.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Wooden Bed</h3>
+                        <span class="product-category">Bed</span>
+                        <p class="product-price">$120.00</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/bed1.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Wooden Bed</h3>
+                        <span class="product-category">Bed</span>
+                        <p class="product-price">$120.00</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/bed3.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Wooden Bed</h3>
+                        <span class="product-category">Bed</span>
+                        <p class="product-price">$120.00</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/bed4.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Wooden Bed</h3>
+                        <span class="product-category">Bed</span>
+                        <p class="product-price">$120.00</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/chair1.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Wooden Bed</h3>
+                        <span class="product-category">Bed</span>
+                        <p class="product-price">$120.00</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/chair2.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Wooden Bed</h3>
+                        <span class="product-category">Bed</span>
+                        <p class="product-price">$120.00</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/chair3.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Wooden Bed</h3>
+                        <span class="product-category">Bed</span>
+                        <p class="product-price">$120.00</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/chair4.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Wooden Bed</h3>
+                        <span class="product-category">Bed</span>
+                        <p class="product-price">$120.00</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/infant_bed_2.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Wooden Bed</h3>
+                        <span class="product-category">Bed</span>
+                        <p class="product-price">$120.00</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/infant_bed_PNG1.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Wooden Bed</h3>
+                        <span class="product-category">Bed</span>
+                        <p class="product-price">$120.00</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/infant_bed_PNG3.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Wooden Bed</h3>
+                        <span class="product-category">Bed</span>
+                        <p class="product-price">$120.00</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/infant_bed_PNG4.png" alt="product image">
+                        <button type="button" class="add-to-cart-btn">
+                            <i class="fas fa-shopping-cart"></i>Add To Cart
+                        </button>
+                    </div>
+                    <div class="product-content">
+                        <h3 class="product-name">Wooden Bed</h3>
+                        <span class="product-category">Bed</span>
+                        <p class="product-price">$120.00</p>
+                    </div>
+                </div> -->
+                <!-- end of single item -->
+            </div>
+        </div>
+    </section>
+    <!-- end of products section -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-banner">
+            <div class="container">
+                <h2>Unlimited Furniture Collection</h2>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est quod maxime nisi
+                    possimus corporis qui aliquid molestias sit iusto itaque, cum delectus tempore, distinctio velit.
+                    Repellat reiciendis suscipit quidem aliquid ipsam, nemo minus repudiandae quas eligendi natus
+                    voluptate nostrum?</p>
+                <button type="button" class="btn">View More</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="social-icons">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-pinterest"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
